@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}  Register   {% endblock %}
+
+{% block content %}   
+<span class="center fontncolor"><h1>Register</h1></span>
+<form method="POST">
+    <div class = "form-group margintop">
+        <label for ="email" class = "fontncolor"> Email </label>
+        <input type = "text" id = "email" name = "email" class = "form-control width" placeholder="Type Email">
+        <label for ="username" class = "fontncolor"> Username </label>
+        <input type = "text" id = "username" name = "username" class = "form-control width" placeholder="Type username">
+        <label for ="password" class = "fontncolor"> Password </label>
+        <input type = "password" id = "password" name = "password" class = "form-control width" placeholder="Type Password">
+        <label for ="password1" class = "fontncolor"> Re-Type Password </label>
+        <input type = "password" id = "password2" name = "password2" class = "form-control width" placeholder="Re-Type Password">
+    </div>
+    <br>
+    <button class ="btn btn-primary opacity" type = "submit">Register</button>
+</form>    
+{% endblock %}

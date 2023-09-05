@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}  Login  {% endblock %}
+
+{% block content %}   
+<span class="center fontncolor"><h1>Login Page</h1></span>
+<form method="POST">
+    <div class = "form-group margintop">
+        <label for ="email" class = "fontncolor"> Email </label>
+        <input type = "text" id = "email" name = "email" class = "form-control width" placeholder="Type Email">
+        <label for ="password" class = "fontncolor"> Password </label>
+        <input type = "password" id = "password" name = "password" class = "form-control width" placeholder="Type Password">
+    </div>
+    <br>
+    <button class ="btn btn-primary opacity" type = "submit">Login</button>
+    <br>
+</form>
+{% endblock %}

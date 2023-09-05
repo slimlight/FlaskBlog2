@@ -1,0 +1,40 @@
+body{
+    background-image: url("4.gif");
+    background-clip: no-clip;
+}
+
+.opacity{
+  opacity: 0.8;
+}
+
+.center{
+  text-align: center;
+}
+.fontncolor{
+  font-family: monospace;
+  color: #f1f1f1f1;
+}
+.flexcenter{
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.margintop{
+  margin-top: 220px;
+}
+
+.width{
+  width: 20em;
+}
+.margintop2{
+  position: absolute;
+  top: 420px;
+  left: 200px;
+}
+
+@media screen and (max-width: 600px){
+  body{
+   background-image: url("3.gif");
+  } 
+}
